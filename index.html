@@ -6,21 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal-Vlog</title>
 
+    <!-- Adding roboto font to html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-color: white;
+            font-family: 'Roboto',sans-serif;
+        }
+        div.menue{
+            padding: 15px;
+        }
+        div.center{
+            margin: auto;
+            width: 60%;
+            padding: 15px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);            
+            background-color: white;
+
+        }
+        .head{
+            text-align: center;
+            padding: 15px;
+        }
+        .img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            width: 50%;
+        }
+        div.date{
+            color: #393E46;
+        }
+</style>
+
 </head>
 <body>
 
-    <table align="center" cellpadding="5" width="50%">
-        <tr>
-            <th><h2>LIFE</h2></th>
-        </tr>
-        <tr>
-            <td>Hy, this is me after leaning some html bascis in github pages to laungh my first web site. Also yesterday 2023/03/19 is my first
-                alone train visit to colombo. So these day can not be forgetable. So I am writing this for my future reference. I got this idea from 
-                a movie call sociel media. According to the movie mask sukerberd also jornelling him self in past. I am also going in to software 
-                industry. so i think this is value to me. Also this site going to update day by day with my html skills. So this is my fist view <br /><br/>
-                <img src="./images/img1.png" />
-            </td>
-        </tr>
-    </table>
+    <div class="menue">
+        <a href="">Home</a>
+        <a href="append.html">Append</a>
+    </div>
+
+    <div class="head">
+        <h1 id="head" >Welcome Sathindu !</h1>
+    </div>
+
+    <div class="center"> 
+
+        <div class="date">
+            <p>2023.03.20</p>
+        </div>  
+
+        <!--&nbsp for little space in paragraph-->
+        <p>&nbsp Hy, this is me after leaning some html bascis in github pages to laungh my first web site. Also yesterday 2023/03/19 is my first
+        alone train visit to colombo. So these day can not be forgetable. So I am writing this for my future reference. I got this idea from 
+        a movie call sociel media. According to the movie mask sukerberd also jornelling him self in past. I am also going in to software 
+        industry. so i think this is value to me. Also this site going to update day by day with my html skills. So this is my fist view </p>
+        <br />
+        <img class="img" src="./images/img1.png" />
+        <br />
+        <hr />
+            
+        
+    </div>
 </body>
 </html>
